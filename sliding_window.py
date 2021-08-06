@@ -1,4 +1,4 @@
-/*You are given an array of integers nums, there is a sliding window of size k which is moving from the very left of the array to the very right. You can only see the k numbers in the window. Each time the sliding window moves right by one position.
+'''You are given an array of integers nums, there is a sliding window of size k which is moving from the very left of the array to the very right. You can only see the k numbers in the window. Each time the sliding window moves right by one position.
 
 Return the max sliding window.
 
@@ -41,7 +41,8 @@ Constraints:
 -104 <= nums[i] <= 104
 1 <= k <= nums.length
 
-*/
+'''
+# leet code question link : https://leetcode.com/problems/sliding-window-maximum/
 #this solution has used data structure double linked list. 
 class Solution:
     def maxSlidingWindow(self, list1: List[int], k: int) -> List[int]:
